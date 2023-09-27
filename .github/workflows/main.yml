@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Divya1287:$HF_TOKEN@huggingface.co/spaces/Divya1287/chatbot main
+        run: git push --force https://Divya1287:$HF_TOKEN@huggingface.co/spaces/Divya1287/chatbot main
