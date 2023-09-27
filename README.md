@@ -1,3 +1,13 @@
+title: Chatbot
+emoji: 📊
+colorFrom: purple
+colorTo: gray
+sdk: gradio
+sdk_version: 3.45.1
+app_file: app.py
+pinned: false
+license: unknown
+
 step-1: install the requirements
         using this command : pip install -r requirements.txt
 
